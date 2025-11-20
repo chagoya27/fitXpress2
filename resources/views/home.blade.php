@@ -22,8 +22,8 @@
 </head>
 <body>
     <!--Barra de navegación -->
-    <x-navBar>
-    </x-navBar>
+    <x-navbar>
+    </x-navbar>
 
 
     <main>

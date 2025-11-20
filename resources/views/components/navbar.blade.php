@@ -1,7 +1,7 @@
 <header>
     
     <span class="logo">
-        <a href=""><img src="{{ Vite::asset('resources/images/AdobeExpress.png') }}" alt=""></a>
+        <a href=""><img src="images/AdobeExpress.png" alt=""></a>
     </span>
 
     <nav class="navegacion">

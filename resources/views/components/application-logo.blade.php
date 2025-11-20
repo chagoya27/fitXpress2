@@ -3,5 +3,5 @@
 </svg>-->
 
 <span class="logo">
-    <a href=""><img src="{{ Vite::asset('resources/images/FitXpress.png') }}" alt=""></a>
+    <a href=""><img src="images/FitXpress.png" alt=""></a>
 </span>

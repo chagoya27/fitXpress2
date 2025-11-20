@@ -53,7 +53,7 @@
             <section class="products">
                 @foreach ($products as $product)
                 <section class="cart">
-                    <figure class="image-product"><img src="{{ Vite::asset('resources/images/'.$product->path)}}" alt=""></figure>
+                    <figure class="image-product"><img src="{{ '/images/' . $product->path }}" alt=""></figure>
                     <section class="informacion">
                         <div class="title-descripcion">{{$product->nombre}} | {{$product->descripcion}}</div>
                         <div class="precio">${{$product->precio}}.00</div>

@@ -1,7 +1,7 @@
 <header>
     
     <span class="logo">
-        <a href="{{route('product.index')}}"><img src="{{ Vite::asset('resources/images/FitXpress.png') }}" alt=""></a>
+        <a href="{{route('product.index')}}"><img src="resources/images/FitXpress.png" alt=""></a>
     </span>
 
     <nav class="navegacion">

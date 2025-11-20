@@ -20,7 +20,7 @@
         <!-- Imagen y Botones -->
         <section class="w-1/2 flex flex-col items-center justify-center text-white p-8">
             <div class="image mb-6">
-                <img src="{{ Vite::asset('resources/images/'.$product->path)}}" 
+                <img src="{{'/images/'.$product->path}}" 
                     class="w-80 h-80 object-cover rounded-lg shadow-lg" alt="Imagen del producto">
             </div>
             <div class="flex flex-col gap-4">
